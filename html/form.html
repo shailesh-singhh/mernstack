@@ -17,8 +17,32 @@
                 password:<input type="password" name="" id="password" placeholder="Enter password"><br>
                 </label>
         </div>
-        <button>Submit</button>
+       
+        <input type="checkbox" name="age" id="age" >
+        <label for="age">I am 18+</label><br>
+    <div>
+        <caption>Select your age:</caption><br>
         
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" name="gender" id="Others" value="Others">
+        <label for="Others">Others</label>
+</div>
+Choose your course:
+<select name="course" id="Course" >
+    <option value="">Select your course</option>
+    <option value="tech">b.tech</option>  
+    <option value="BBA">BBA</option> 
+    <option value="Phar">Pharmacy</option>
+</select><br>
+<label for="Volume">Volume</label>
+<input type="range" min="0" max="100" name="vol" id="Volume">
+<br>
+<label for="feedback">Please give your valuable feedback</label>
+<textarea name="Feedback" id="feedback" rows="5" cols="50" placeholder="Write feedback here"></textarea><br>
+<button>Submit</button><br>
     </form>
 </body>
 </html> 
