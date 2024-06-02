@@ -1,0 +1,46 @@
+/* h2{
+    color: rebeccapurple; 
+    background-color:orchid;
+ }
+ p{
+     color: aqua;
+     background-color:pink;
+    
+ }
+ button{
+     color: rgb(15, 14, 14);
+     background-color: rgb(199, 247, 103);
+ }
+      */
+
+      h1{
+        color:rgb(255, 0,0 ) ;
+        text-align: center;
+        font-weight: 400;
+        text-decoration: white line-through;
+        letter-spacing: normal;
+        font-family:  sans-serif;
+      }
+      p{
+        background-color:rgb(241, 232, 232);
+        color:rgb(0, 130,200);
+        font-weight:200 ;
+        line-height: 2;
+        font-size: normal;
+        
+      }
+      button{
+        color: white;
+        background-color:blue ;
+      }
+      h2{
+        font-family: Legue spatan;
+        color: #ffa511;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 1.5x;
+        text-decoration: teal double underline;
+        text-transform: uppercase;
+      }
