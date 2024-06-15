@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(42, 39, 39);
+}
+#outer{
+    background-color: #ffff ;
+    width: 400px;
+    height: 400px;
+
+}
+#face{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(221, 192, 43);
+    margin-left: 20px ;
+    margin-top: 30px;
+    padding:10px;
+}
+.eye{
+    display: inline-block;
+    background-color: black;
+    height: 45px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#smile{
+   
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top:200px ;
+    left:110px;
+
+   background-color: rgb(87, 24, 81);
+    border-radius: 0 0 10px 10px;
+  
+}
+#smile:hover{
+    background-color: rgb(123, 66, 36);
+    border-radius: 0 0 50px 50px;
+    transition: 1s;
+}
