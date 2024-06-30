@@ -35,12 +35,35 @@ It should have 'ease-in' speed curve & 0.5s delay */
     box-shadow: 2px 2px 5px green ;
     }
     /* Qs5. Set Your picture or any picture as the background of
-    the div
+    the di
     "myPic". Also, set transparency of this div to 50%. */
     #myPic {
     width: 200px;
     height: 200px;
     background: pink;
     background-image: url(/images/boy2.jpg);
-    background-size: cover;
+    background-size: cover;  
     }
+    #container{
+        height: 300px;
+        width: 80%;
+        background-color: azure;
+        margin: 10px auto;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+         flex-wrap: wrap;
+        /* align-items: flex-start;    */
+        align-content: space-between;
+      }
+    h1{
+        text-align: center;
+    }
+    #container div{
+        height: 100px;
+        width: 300px;
+        color: white;
+        text-align: center;
+        font-size: large;
+    }  
