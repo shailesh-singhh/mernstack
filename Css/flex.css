@@ -1,0 +1,25 @@
+#main{
+    border: 2px solid rgb(59, 174, 209);
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    
+}
+.alfa{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    /* padding-top: 50px; */
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+
+    
+}
