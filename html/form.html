@@ -44,5 +44,69 @@ Choose your course:
 <textarea name="Feedback" id="feedback" rows="5" cols="50" placeholder="Write feedback here"></textarea><br>
 <button>Submit</button><br>
     </form>
+    <hr>
+    <form action="https://www.google.com/search?">
+        <input type="text" name = "q" id=" username" placeholder="Search on google">
+        <button type="submit">Search</button>
+    </form>
+    <hr>
+    <table border="black">
+        <caption>Student Information</caption>
+        <thead>
+            <tr>
+                <th  rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <form action="actio.php">
+    <label for="uname">Name</label>
+    <input type="text" name=" uname" id=" uname" placeholder=""><br>
+    <label for="gender">Sex</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label><br>
+   Country:
+   <select name="country" id="country">Select an option
+   <option value="india">India</option>
+   <option value="england">England</option>
+     <option value="usa">USA</option>
+</select><br>
+     <label for="textarea">Message:</label><br>
+     <!-- <input type="textarea" name = "textarea" id="textarea" > -->
+     <textarea name="textarea" id="textarea" rows="5" cols="5">Give feedback</textarea><br>
+     <input type="checkbox" name="agree" id="sub">
+     <label for="sub">Subscribed!! </label><br>
+     <button type="submit">Submit</button>
+    </form>
 </body>
 </html> 
