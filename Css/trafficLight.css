@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+.box{
+    width: 100px;
+    height: 300px;
+    background-color: #333;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+}
+.color{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#red{
+    background-color: red;
+    position: absolute;
+    top: 0;
+}
+#yellow{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+}
+#green{
+    background-color: green;
+    position: absolute;
+    top: 200px;
+}
